@@ -13,3 +13,6 @@ Research Departments / R&D Centers / Institutes / Science City Residents / Infor
 - Numpy
 - Matplotlib
 - Seaborn
+
+## 4. Results
+Detection of age is of quite good precision with the ResNet50 pretrained model built in Keras. After approximately 10-15 minutes of learning on GPU the mean absolute error is around 7. By contrast, PyTorch models are not as accurate as previous ones because of limitations of CPU computation. Nonetheless, the error goes down gradually, so that the architecture of the neural network is designed properly.
